@@ -49,3 +49,12 @@ docker run -d --name kafka --network kafka-net -p 9092:9092 \
 ```bash
 C:\Projects\kafka-user-logger> go run producer.go
 ✅ Message sent!
+
+# Kafka User Logger 🚀
+
+![Go Version](https://img.shields.io/badge/go-1.22-blue)
+![Last Commit](https://img.shields.io/github/last-commit/Ria36/kafka-user-logger)
+![License](https://img.shields.io/github/license/Ria36/kafka-user-logger)
+![Stars](https://img.shields.io/github/stars/Ria36/kafka-user-logger?style=social)
+
+Kafka producer and consumer written in Go using the segmentio/kafka-go client.
