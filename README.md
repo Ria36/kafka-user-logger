@@ -38,3 +38,14 @@ docker run -d --name kafka --network kafka-net -p 9092:9092 \
   -e KAFKA_BROKER_ID=1 \
   -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
   confluentinc/cp-kafka:7.4.0
+
+
+---
+
+## 📬 Sample Output
+
+### ▶️ Producer Terminal:
+
+```bash
+C:\Projects\kafka-user-logger> go run producer.go
+✅ Message sent!
